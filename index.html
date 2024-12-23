@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Pontos para Ações Sociais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Pontos para Ações Sociais</h1>
+        <div id="user-actions">
+            <button onclick="addPoints('voluntariado')">Voluntariado</button>
+            <button onclick="addPoints('doacao')">Doação</button>
+            <button onclick="addPoints('reciclagem')">Reciclagem</button>
+        </div>
+        <div id="points-display">
+            <h2>Pontos Totais: <span id="total-points">0</span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
